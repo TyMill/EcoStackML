@@ -22,29 +22,31 @@ EcoStackML pozwala na:
 
 ## Struktura Katalogów
 
+```
 EcoStackML/
 ├── data/
-│ ├── raw/ # Surowe dane wejściowe
-│ ├── processed/ # Przetworzone dane
+│   ├── raw/                   # Surowe dane wejściowe
+│   ├── processed/             # Przetworzone dane
 ├── models/
-│ ├── base_models/ # Implementacje podstawowych modeli (RNN, ARIMA, Regresja, Boosting)
-│ ├── meta_models/ # Implementacje modeli meta do stacking
+│   ├── base_models/           # Implementacje podstawowych modeli (RNN, ARIMA, Regresja, Boosting)
+│   ├── meta_models/           # Implementacje modeli meta do stacking
 ├── preprocessing/
-│ ├── data_preprocessing.py # Skrypty do wstępnej obróbki danych
+│   ├── data_preprocessing.py  # Skrypty do wstępnej obróbki danych
 ├── stacking/
-│ ├── stacking.py # Implementacja procesu stacking
+│   ├── stacking.py            # Implementacja procesu stacking
 ├── evaluation/
-│ ├── evaluation_metrics.py # Narzędzia do ewaluacji modeli
+│   ├── evaluation_metrics.py  # Narzędzia do ewaluacji modeli
 ├── notebooks/
-│ ├── exploratory_analysis.ipynb # Notebook do analizy eksploracyjnej
+│   ├── exploratory_analysis.ipynb # Notebook do analizy eksploracyjnej
 ├── scripts/
-│ ├── run_stacking.py # Skrypt do uruchomienia procesu stacking
+│   ├── run_stacking.py        # Skrypt do uruchomienia procesu stacking
 ├── tests/
-│ ├── test_preprocessing.py # Testy jednostkowe dla modułu preprocessing
-│ ├── test_models.py # Testy jednostkowe dla modeli
-├── README.md # Dokumentacja projektu
-├── requirements.txt # Lista zależności
-└── setup.py # Skrypt instalacyjny
+│   ├── test_preprocessing.py  # Testy jednostkowe dla modułu preprocessing
+│   ├── test_models.py         # Testy jednostkowe dla modeli
+├── README.md                  # Dokumentacja projektu
+├── requirements.txt           # Lista zależności
+└── setup.py                   # Skrypt instalacyjny
+```
 
 
 ## Instalacja
