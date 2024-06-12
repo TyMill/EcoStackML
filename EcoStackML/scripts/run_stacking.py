@@ -1,8 +1,8 @@
 import sys
 import pandas as pd
-from preprocessing.data_preprocessing import preprocess_data
-from stacking.stacking import train_stacking_model
-from evaluation.evaluation_metrics import print_evaluation_metrics
+from EcoStackML.preprocessing.data_preprocessing import preprocess_data
+from EcoStackML.stacking.stacking import train_stacking_model
+from EcoStackML.evaluation.evaluation_metrics import print_evaluation_metrics
 
 def main():
     if len(sys.argv) != 3:
