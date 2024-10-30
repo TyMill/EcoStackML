@@ -117,3 +117,8 @@ Chętnie przyjmujemy wkład od społeczności! Aby przyczynić się do projektu:
 Projekt EcoStackML jest dostępny na licencji MIT. Zobacz plik LICENSE po więcej szczegółów.
 
 EcoStackML - Tworzenie realistycznych danych środowiskowych za pomocą zaawansowanych technik ML Stacking.
+
+## Dotychczasowi autorzy
+1. Tymoteusz Miller
+2. Adrianna Łobodzińska
+3. Polina Kozlovska
