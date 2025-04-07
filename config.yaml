@@ -1,0 +1,25 @@
+data:
+  path: "notebooks/demo_data/sample.csv"
+  target_column: "target"
+
+preprocessing:
+  missing_strategy: "median"
+  scaling: "standard"
+  anomaly_method: "iqr"
+  datetime_cols: []
+
+model:
+  base_models:
+    - name: "random_forest"
+    - name: "xgboost"
+  meta_model: "logistic"
+  model_type: "classification"
+
+split:
+  test_size: 0.2
+  stratify: true
+  random_state: 42
+
+output:
+  model_dir: "models/"
+  results_dir: "results/"
