@@ -1,5 +1,13 @@
 # 🌿 EcoStackML
 
+
+[![PyPI](https://img.shields.io/pypi/v/ecostackml?color=green)](https://pypi.org/project/ecostackml/)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
+[![License](https://img.shields.io/github/license/TyMill/EcoStackML)](https://github.com/TyMill/EcoStackML/blob/main/LICENCE)
+[![Docs](https://img.shields.io/badge/docs-MkDocs-blue)](https://tymill.github.io/EcoStackML/)
+[![Notebook](https://img.shields.io/badge/Tutorial-Notebook-yellow)](https://github.com/TyMill/EcoStackML/tree/main/notebooks)
+
+
 > **Stacked Machine Learning Framework for Environmental and Tabular Data**
 
 EcoStackML is a modular and production-ready Python framework that leverages stacked machine learning techniques to deliver robust and explainable models for classification and regression tasks. Designed for environmental researchers, data scientists, and ML engineers.
