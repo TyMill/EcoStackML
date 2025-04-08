@@ -8,7 +8,7 @@
 [![Notebook](https://img.shields.io/badge/Tutorial-Notebook-yellow)](https://github.com/TyMill/EcoStackML/tree/main/notebooks)
 
 
-> **Stacked Machine Learning Framework for Environmental and Tabular Data**
+**Stacked Machine Learning Framework for Environmental and Tabular Data**
 
 EcoStackML is a modular and production-ready Python framework that leverages stacked machine learning techniques to deliver robust and explainable models for classification and regression tasks. Designed for environmental researchers, data scientists, and ML engineers.
 
