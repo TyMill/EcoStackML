@@ -1,24 +1,27 @@
+# 🔧 EcoStackML Configuration File
+
 data:
-  path: "notebooks/demo_data/sample.csv"
-  target_column: "target"
+  path: "data/sample.csv"            # Path to input dataset
+  target_column: "target"            # Column to predict
+  datetime_cols: []                  # Optional datetime columns
 
 preprocessing:
-  missing_strategy: "median"
-  scaling: "standard"
-  anomaly_method: "iqr"
-  datetime_cols: []
-
-model:
-  base_models:
-    - name: "random_forest"
-    - name: "xgboost"
-  meta_model: "logistic"
-  model_type: "classification"
+  missing_strategy: "median"         # Options: mean, median, most_frequent
+  scaling: "standard"                # Options: standard, minmax
+  anomaly_method: "iqr"              # Options: iqr, isolation, none
 
 split:
   test_size: 0.2
   stratify: true
   random_state: 42
+
+model:
+  base_models:
+    - name: "random_forest"
+    - name: "xgboost"
+    - name: "svm"
+  meta_model: "logistic"
+  model_type: "classification"       # Options: classification, regression
 
 output:
   model_dir: "models/"
