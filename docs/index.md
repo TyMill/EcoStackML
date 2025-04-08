@@ -2,7 +2,7 @@
 
 [![PyPI](https://img.shields.io/pypi/v/ecostackml?color=green)](https://pypi.org/project/ecostackml/)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/github/license/TyMill/EcoStackML)](https://github.com/TyMill/EcoStackML/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/TyMill/EcoStackML)](https://github.com/TyMill/EcoStackML/blob/main/LICENCE)
 [![Docs](https://img.shields.io/badge/docs-MkDocs-blue)](https://tymill.github.io/EcoStackML/)
 [![Notebook](https://img.shields.io/badge/Tutorial-Notebook-yellow)](https://github.com/TyMill/EcoStackML/tree/main/notebooks)
 
