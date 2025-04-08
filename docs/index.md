@@ -22,5 +22,5 @@
 
 Check out:
 - [Quickstart](quickstart.md)
-- [API Docs](api/stacker.md)
-- [Tutorials](tutorials/)
+- [API Docs](api/)
+- [Tutorials](api/tutorials/)
