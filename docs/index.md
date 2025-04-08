@@ -23,4 +23,4 @@
 Check out:
 - [Quickstart](quickstart.md)
 - [API Docs](api/)
-- [Tutorials](docs/tutorials/)
+- [Tutorials](docs/tutorials)
