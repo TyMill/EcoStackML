@@ -8,6 +8,7 @@
 [![License](https://img.shields.io/github/license/TyMill/EcoStackML)](https://github.com/TyMill/EcoStackML/LICENCE)
 [![Docs](https://img.shields.io/badge/docs-MkDocs-blue)](https://tymill.github.io/EcoStackML/)
 [![Notebook](https://img.shields.io/badge/Tutorial-Notebook-yellow)](https://github.com/TyMill/EcoStackML/tree/main/notebooks)
+![GitHub all releases](https://img.shields.io/github/downloads/TyMill/EcoStackML/total?label=📦%20Downloads&style=plastic)
 
 
 **Stacked Machine Learning Framework for Environmental and Tabular Data**
